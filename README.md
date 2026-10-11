@@ -3,7 +3,6 @@
 **Simple. Fast. Powerful.** A minimal desktop download manager for Windows built with
 Tauri 2, Rust and React.
 
-![pixidl desktop screenshot](docs/screenshots/18-repository-preview.png)
 
 - **HTTP/HTTPS** downloads with resume (Range + If-Range validation), up to 16
   parallel connections per file, crash-safe segment state, disk-space checks
