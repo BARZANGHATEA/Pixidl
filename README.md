@@ -32,7 +32,8 @@ Tauri 2, Rust and React.
 - System tray, notifications, optional clipboard detection, history, search,
   filters, categories, light/dark themes, English and Persian (RTL)
 
-![pixidl](docs/screenshots/17-dark.png)
+![pixidl](<img width="1202" height="782" alt="image" src="https://github.com/user-attachments/assets/bbfef742-e038-4405-85c7-1bc30b7add9d" />
+)
 
 No analytics, no accounts, no cloud: nothing leaves your machine except the
 downloads you start.
