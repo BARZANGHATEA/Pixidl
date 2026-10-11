@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "pixidl",
+  "description": "__MSG_extDescription__",
+  "version": "2.1.0",
+  "default_locale": "en",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtJlUon0UEsmzL+Zwv1XFpJEl+hqFgJtW20sAsTOOJCFrz5kd35HrNxLuadtgTqVV72ly54FTJ1qgbBCEZL9pCREATC4m3aUSnB5GNKgITPHeK2V5/1bnoVrxvr+nFmVMg8F+X0SEtPoZ4jbtpKjnaAnc6Ym7NtYLJUA8UslCBZr9JV/hitfyPKZnTFuHZwNxYx4uSMFD1B79S1KOkGq/Bjvlt1KH3j/7yVNF7q9bOgHQA0r73X9eBXqC0HarNH49cRnQI8fbN9bV4d+E7V2wQiF/farJyadHX2/pMB5OsoAnO0thMKgIKtk/TvlNT3CLCp0pVPy9vDCdEqWumVfTvwIDAQAB",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "__MSG_actionTitle__",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "permissions": [
+    "nativeMessaging",
+    "contextMenus",
+    "storage",
+    "notifications",
+    "downloads",
+    "scripting",
+    "activeTab",
+    "tabs",
+    "alarms"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

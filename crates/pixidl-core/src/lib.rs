@@ -1,0 +1,26 @@
+//! pixidl core.
+//!
+//! This crate contains everything that does not depend on the desktop shell:
+//! persistence, settings, the download engines, the queue/manager and the
+//! browser-integration protocol. It is fully testable headless.
+
+pub mod bridge;
+pub mod browser;
+pub mod db;
+pub mod detector;
+pub mod engines;
+pub mod manager;
+pub mod paths;
+pub mod protocol;
+pub mod error;
+pub mod ratelimit;
+pub mod scheduler;
+pub mod security;
+pub mod settings;
+pub mod tools;
+pub mod types;
+pub mod updater;
+
+pub use error::{DownloadError, Result};
+pub const APP_NAME: &str = "pixidl";
+pub const APP_VERSION: &str = env!("CARGO_PKG_VERSION");

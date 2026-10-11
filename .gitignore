@@ -1,0 +1,16 @@
+node_modules
+dist/
+target/
+src-tauri/target/
+src-tauri/binaries/*
+!src-tauri/binaries/.gitkeep
+src-tauri/gen/
+*.log
+.DS_Store
+coverage/
+.vite/
+*.tsbuildinfo
+src-tauri/resources/bin/*
+!src-tauri/resources/bin/README.md
+/target-*/
+.claude/worktrees/
