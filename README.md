@@ -85,7 +85,6 @@ browser integration on uninstall (your downloads and settings are kept).
 - [ARCHITECTURE.md](ARCHITECTURE.md) — how the pieces fit together
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) — common problems and where the logs are
 - [docs/BROWSER_PROTOCOL.md](docs/BROWSER_PROTOCOL.md) — the versioned extension protocol
-- [docs/QA_CHECKLIST.md](docs/QA_CHECKLIST.md) — manual release checklist
 - [browser-extension/README.md](browser-extension/README.md) — installing the reference extension
 
 ## Repository layout
